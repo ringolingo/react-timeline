@@ -6,8 +6,17 @@
   background-color: #FFF;
 }
 
+.timeline-event:nth-child(odd) {
+  background-color: #CCDAD1;
+}
+
 .timeline-event:hover {
-  background-color: #F5F8FA;
+  background-color: #E7EEEA;
+}
+
+.timeline-event:hover::after {
+  content: 'Share | Reply | Block | Report';
+  text-align: center;
 }
 
 .event-person {

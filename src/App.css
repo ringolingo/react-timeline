@@ -1,7 +1,7 @@
 .App-header {
-  background-color: #222;
+  background-color: #432923;
   padding-bottom: 0.5rem;
-  color: white;
+  color: #FFF;
   position: fixed;
   width: 100%;
 }
@@ -12,6 +12,11 @@
 }
 
 .App-main {
-  padding-top: 7rem;
-  background-color: #E6ECF0;
+  padding: 7rem 7rem 0rem;
+  background-color: #9CAEA9;
+}
+
+.App-subtitle {
+  text-align: center;
+  font-size: 1.25em;
 }

@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="App-title">Application title</h1>
+        <h1 className="App-title">WORDS IN BOXES</h1>
+        <h3 className='App-subtitle'>your friends said it, { timelineData.person }, now you gotta read it</h3>
       </header>
       <main className="App-main">
         <Timeline events={timelineData.events} />
